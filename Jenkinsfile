@@ -7,7 +7,7 @@ pipeline {
         SOURCE_DIR = "${env.WORKSPACE}/test-code"
         DB_NAME = "my-app-db-2"
         SARIF_OUTPUT = "result1.sarif.json"
-        GO_VERSION = "1.21.5"
+        GO_VERSION = "1.24.0"
         GO_DIR = "${env.WORKSPACE}/go"
         GOROOT = "${env.WORKSPACE}/go"
         GOPATH = "${env.WORKSPACE}/go-packages"
